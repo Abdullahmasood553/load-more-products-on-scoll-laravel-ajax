@@ -22,6 +22,7 @@
 
 @push('scripts')
 
+
 <script>
     $.ajaxSetup({
       headers: {
@@ -75,5 +76,6 @@
    });
   });
   </script>
+  
 
 @endpush
