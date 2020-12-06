@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 28, 2020 at 12:28 PM
+-- Generation Time: Dec 06, 2020 at 02:21 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.31
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `role_mangement`
+-- Database: `load_product`
 --
 
 -- --------------------------------------------------------
@@ -113,7 +113,10 @@ INSERT INTO `products` (`id`, `title`, `image`, `created_at`, `updated_at`) VALU
 (9, 'Graphic Designing', 'assets/img/9.jpg', NULL, NULL),
 (10, 'Dibond Signs', 'assets/img/10.jpg', NULL, NULL),
 (11, 'PVC', 'assets/img/11.jpg', NULL, NULL),
-(12, 'Brouchers', 'assets/img/12.jpg', NULL, NULL);
+(12, 'Brouchers', 'assets/img/12.jpg', NULL, NULL),
+(13, 'Backdrops', 'assets/img/13.jpg', NULL, NULL),
+(14, 'Construction Signs', 'assets/img/14.jpg', NULL, NULL),
+(15, 'Menus', 'assets/img/15.jpg', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -204,7 +207,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `users`
